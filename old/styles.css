@@ -1,0 +1,71 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: red;
+}
+
+.title {
+    background-color: rgb(27, 114, 255);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.maintitle {
+    margin-bottom: 0;
+    font-size: 3.125em;
+}
+
+.thumbnail {
+    width: 50vw;
+}
+
+/* 
+
+absolute units
+px - pixels
+
+relative units
+% - percentage
+em
+vw, vh
+
+viewport
+ */
+
+.subtitle {
+    margin-top: 5px;
+    font-size: 10px;
+    color: rgb(207, 225, 255);
+}
+
+.blogcard {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.dateposted {
+    margin-top: 5px;
+    font-size: 10px;
+    color: rgb(91, 91, 91);
+}
+
+.description {
+    font-size: 8px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 45px;
+}
+
+.btn{
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 2em;
+}

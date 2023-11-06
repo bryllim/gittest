@@ -3,17 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>B&F Web Solutions - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <p>This is a paragraph tag.</p>
-    <h1>This is a header tag</h1>
-    <p>I am Joshua Allada</p>
-    <ul>
-        <li>Action item</li>
-    </ul>
-    <footer>
-        This is a footer
+    <!-- Navigation header -->
+    <nav class="navbar navbar-expand-lg bg-white shadow fixed-top">
+        <div class="container-fluid px-5">
+          <a class="navbar-brand fw-bold" href="#">🌀 B&F</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown active fw-bold">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Home
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#services">Services</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#processes">Process</a></li>
+                </ul>
+              </li>
+              <li class="nav-item fw-bold">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+
+              <li class="nav-item fw-bold">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary p-5 text-white">
+        <div class="row mt-5">
+            <div data-aos="fade-up" class="col-md-7 my-auto">
+                <h1 class="display-3"><span class="fw-bold">B&F</span> Web Solutions</h1>
+                <p>We build the <strong>best</strong> and <strong>fastest</strong> websites for you and your business.</p>
+                <button class="btn btn-light text-primary fw-bold">Talk to us →</button>
+            </div>
+            <div class="col-md-5">
+                <img data-aos="fade-left" data-aos-duration="3000" class="img-fluid" src="https://cdni.iconscout.com/illustration/free/thumb/free-developer-team-2043022-1731280.png?f=webp" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!-- Our Services -->
+    <section id="services" class="container py-5">
+        <div data-aos="fade-up" class="row mb-3">
+            <div class="col-md-12">
+                <h2 class="fw-bold">Our Services</h2>
+            </div>
+        </div>
+        <div data-aos="fade-up" class="row">
+            <div class="col-md-4 d-flex">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h4 class="fw-bold text-primary">Web Development</h4>
+                        <img class="img-thumbnail my-3" src="https://png.pngtree.com/png-vector/20190611/ourlarge/pngtree-web-development-illustration-modern-can-be-used-for-landing-pages-web-png-image_1496210.jpg" alt="">
+                        <p>We will develop your website for your business that will work on all devices.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h4 class="fw-bold text-primary">Graphic Design</h4>
+                        <img class="img-thumbnail my-3" src="https://cdni.iconscout.com/illustration/premium/thumb/graphic-design-3839572-3202874.png?f=webp" alt="">
+                        <p>We will create attractive and aesthetic designs for whatever you need it.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h4 class="fw-bold text-primary">Video Editing</h4>
+                        <img class="img-thumbnail my-3" src="https://img.freepik.com/free-vector/content-creator-editing-video-footage-studio-editor-publishing-viral-video-social-media-multimedia-production-flat-vector-illustration-motion-design-concept-banner-landing-web-page_74855-21752.jpg" alt="">
+                        <p>We will edit your video to make it look good and presentable using our latest video editor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Process -->
+    <section id="processes" class="bg-primary">
+        <div class="container py-5">
+            <h2 class="fw-bold text-white mb-5">Our Process</h2>
+
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Gathering Requirements</div>
+                    We will setup a meeting to gather the requirements and the goals for the website.
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Prototyping</div>
+                    We will create the initial mockup and design of the website for your approval.
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Development</div>
+                    We will begin the development phase which includes building the pages and writing all the functions.
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Testing</div>
+                      We will test the website on how it loads and ensure that all functions work correctly.
+                    </div>
+                  </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Deployment</div>
+                        We will deploy the website to make it live and accessible to visitors.
+                    </div>
+                </li>
+              </ol>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="container py-5">
+        <h3 class="fw-bold">
+            Ready to work with us?
+        </h3>
+        <p>Talk to us now. We're open <strong>24/7</strong> to accomodate your project.</p>
+        <button class="btn btn-primary text-white fw-bold">Talk to us →</button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white">
+        <div class="container py-5">
+            <h4>B&F Web Solutions</h4>
+            <hr>
+            <p>11F, X Building, BGC, Taguig City</p>
+            <p>info@bandfwebsolutions.com</p>
+            <p>(01) 123 495</p>
+        </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
